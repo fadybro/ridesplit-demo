@@ -1,0 +1,61 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#FFF5F7" stroke="#8B1538" stroke-width="3"/>
+  
+  <!-- Maroon accent circle -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#C41E3A" stroke-width="2" stroke-dasharray="5,5" opacity="0.3"/>
+  
+  <!-- Left half - person icon (Customer A) -->
+  <g transform="translate(55, 100)">
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="12" fill="#8B1538"/>
+    <!-- Body -->
+    <path d="M -8 -5 Q -12 8 -15 18 L -8 25 L 8 25 L 15 18 Q 12 8 8 -5 Z" fill="#C41E3A"/>
+    <!-- Hand pointing right -->
+    <circle cx="18" cy="5" r="5" fill="#8B1538"/>
+  </g>
+  
+  <!-- Right half - person icon (Customer B) -->
+  <g transform="translate(145, 100)">
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="12" fill="#C41E3A"/>
+    <!-- Body -->
+    <path d="M -8 -5 Q -12 8 -15 18 L -8 25 L 8 25 L 15 18 Q 12 8 8 -5 Z" fill="#8B1538"/>
+    <!-- Hand pointing left -->
+    <circle cx="-18" cy="5" r="5" fill="#C41E3A"/>
+  </g>
+  
+  <!-- Center connection line with car -->
+  <line x1="75" y1="100" x2="125" y2="100" stroke="#C41E3A" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Animated car in center -->
+  <g transform="translate(100, 100)">
+    <!-- Car body -->
+    <rect x="-12" y="-6" width="24" height="10" rx="3" fill="#8B1538"/>
+    <!-- Car roof -->
+    <ellipse cx="0" cy="-4" rx="8" ry="4" fill="#C41E3A"/>
+    <!-- Front wheel -->
+    <circle cx="8" cy="5" r="3" fill="#2D2D2D"/>
+    <circle cx="8" cy="5" r="1.5" fill="#666"/>
+    <!-- Back wheel -->
+    <circle cx="-8" cy="5" r="3" fill="#2D2D2D"/>
+    <circle cx="-8" cy="5" r="1.5" fill="#666"/>
+    <!-- Window -->
+    <rect x="-4" y="-4" width="4" height="3" fill="#FFE5EC" opacity="0.7" rx="1"/>
+  </g>
+  
+  <!-- Plus symbol (split/sharing concept) -->
+  <g transform="translate(100, 145)" opacity="0.6">
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#8B1538" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#8B1538" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text: RideSplit -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#8B1538" letter-spacing="1">
+    RIDESPLIT
+  </text>
+  
+  <!-- Decorative dots -->
+  <circle cx="30" cy="30" r="3" fill="#C41E3A" opacity="0.5"/>
+  <circle cx="170" cy="170" r="3" fill="#8B1538" opacity="0.5"/>
+</svg>
